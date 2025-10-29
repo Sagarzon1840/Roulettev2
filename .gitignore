@@ -45,10 +45,6 @@ Thumbs.db
 ehthumbs.db
 .DS_Store
 
-# User secrets and local configuration that may contain credentials
-**/Properties/launchSettings.json
-secrets.json
-
 # Local JSON mock data (do not commit sensitive/mock data)
 data/*.json
 

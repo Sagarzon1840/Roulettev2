@@ -1,0 +1,53 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:10359",
+      "sslPort": 44368
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5237",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "USE_JSON_MOCK": "true",
+        "Jwt__Secret": "fD4x9sK8qTzB3vH7uYw1pR0eLmN6aQ2z",
+        "ConnectionStrings__Default": "Host=localhost;Port=5432;Database=roulette_db;Username=postgres;Password=yourpassword",
+        "JsonMock__UsersFile": "data/users.json"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7250;http://localhost:5237",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "USE_JSON_MOCK": "true",
+        "Jwt__Secret": "fD4x9sK8qTzB3vH7uYw1pR0eLmN6aQ2z",
+        "ConnectionStrings__Default": "Host=localhost;Port=5432;Database=roulette_db;Username=postgres;Password=yourpassword",
+        "JsonMock__UsersFile": "data/users.json"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "USE_JSON_MOCK": "true",
+        "Jwt__Secret": "fD4x9sK8qTzB3vH7uYw1pR0eLmN6aQ2z",
+        "ConnectionStrings__Default": "Host=localhost;Port=5432;Database=roulette_db;Username=postgres;Password=yourpassword",
+        "JsonMock__UsersFile": "data/users.json"
+      }
+    }
+  }
+}
