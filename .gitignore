@@ -1,0 +1,76 @@
+# .gitignore for a .NET 8 / ASP.NET Core project
+# See https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Publish folder
+publish/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Dotnet build artifacts
+project.lock.json
+artifacts/
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# User secrets and local configuration that may contain credentials
+**/Properties/launchSettings.json
+secrets.json
+
+# Local JSON mock data (do not commit sensitive/mock data)
+data/*.json
+
+# Rider and ReSharper caches
+.ReSharper*/
+*._ReSharper*
+
+# JetBrains IDEs
+.idea/
+
+# Optional: lock files
+*.dotCover
+
+# Generated certificates
+*.pfx
+pfx/*.pfx
+
+# Test results
+TestResults/
+
+# Temporary files
+*.tmp
+*.temp
+
+# End of file

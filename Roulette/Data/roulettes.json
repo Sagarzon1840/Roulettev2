@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "e9715802-2dd7-4bb1-826d-9345970b6baa",
+    "IsOpen": true,
+    "Bets": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "Amount": 10000,
+        "Number": null,
+        "Color": "rojo",
+        "UserId": "78080463-ee9d-4e78-92c9-b3c646beb723",
+        "User": null,
+        "RouletteId": "e9715802-2dd7-4bb1-826d-9345970b6baa",
+        "Roulette": null
+      }
+    ]
+  }
+]
