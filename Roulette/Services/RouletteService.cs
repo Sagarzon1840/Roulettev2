@@ -47,7 +47,7 @@ namespace Roulette.Services
 			if (bet.Number.HasValue && !string.IsNullOrEmpty(bet.Color))
 				throw new InvalidOperationException("No es posible seleccionar número y color");
 
-			if (user == null) throw new InvalidOperationException("Usuario no encontrado);
+			if (user == null) throw new InvalidOperationException("Usuario no encontrado");
 
 			if (user.Credit >= bet.Amount && roulette.IsOpen)
 			{
